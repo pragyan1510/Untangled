@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#0F989C"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="new thoughts on way"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textview_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:padding="8dp"/>
+
+
+        <Button
+            android:id="@+id/button_copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#0C7078"
+            android:text="copy this quote" />
+
+        <CheckBox
+            android:id="@+id/cbheart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_wishlist_item"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="8dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
